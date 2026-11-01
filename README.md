@@ -60,7 +60,7 @@ ReSeries checks this repository for new versions and notifies you. Installing an
 Every package comes with a [minisign](https://jedisct1.github.io/minisign/) signature (`.minisig`). To check a download by hand:
 
 ```sh
-minisign -Vm reseries_0.1.0_amd64.deb -P RWSDb+4tFvkgfQIFT9poYlfM+fSotet80wYLWEoONw/bRwSHrfB77I61
+minisign -Vm reseries_<version>_amd64.deb -P RWSDb+4tFvkgfQIFT9poYlfM+fSotet80wYLWEoONw/bRwSHrfB77I61
 ```
 
 The trusted comment names the exact file it belongs to.
@@ -84,3 +84,12 @@ Your settings stay in `~/.config/reseries` and can be deleted by hand.
 ## License & credits
 
 ReSeries is its own implementation. Protocol knowledge from projects such as HeadsetControl served as a reference only, no code was taken from them. Third-party licenses are installed with the package under `/usr/share/licenses/reseries/`.
+
+The user interface is built with [Slint](https://slint.dev).
+
+<a href="https://slint.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.svg">
+    <img alt="Made with Slint" src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg" height="60">
+  </picture>
+</a>
