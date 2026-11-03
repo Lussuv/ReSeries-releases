@@ -49,7 +49,7 @@ Log out and back in once afterwards, or start the services right away:
 systemctl --user start reseries-daemon soundtry-engine
 ```
 
-Then open **ReSeries** from the application menu. If you like, add the **ReSeries** and **SoundTry** widgets to your panel.
+Then open **ReSeries** from the application menu. The **ReSeries** and **SoundTry** widgets appear in the system tray after the next login (or after restarting Plasma); you can hide or remove them there as usual.
 
 > SoundTry registers itself as the default output ("SoundTry") and input ("SoundTry Mic"). Your previous devices are restored when the engine stops.
 
