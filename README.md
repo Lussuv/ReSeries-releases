@@ -24,6 +24,7 @@ ReSeries needs **PipeWire** with **WirePlumber**. It supports KDE Plasma 5.27 an
 | SteelSeries Arctis 7+ | Battery, ChatMix, sidetone, auto power-off, equalizer | experimental |
 | SteelSeries Aerox 3 Wireless Gen 2 | Battery, charging, DPI steps, lift-off distance, polling rate, power saving, lighting, acceleration, angle snapping, button mapping | experimental |
 | SteelSeries Apex 3 TKL | Brightness, colour of the 8 lighting zones | experimental |
+| Glorious Model O 2 PRO Wireless | Battery, charging, DPI steps, polling rate, Motion Sync, debounce, button mapping | experimental |
 
 Experimental devices are hidden by default. To show them, go to **Settings → Experimental devices**.
 
